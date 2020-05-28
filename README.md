@@ -39,7 +39,7 @@ If there's no match, an empty array is returned.
 if prefix is not provided, it will just search an empty string from the backend.
 
 ### POST /typeahead/set
-This is a post request with content type application/json with data {name: <name>}. What it does is to increment the popularity by 1 in the backend when a name is selected. For example, if James is selected, we increment the popularity from 43 to 44.
+This is a post request with content type application/json with data `{name: <name>}`. What it does is to increment the popularity by 1 in the backend when a name is selected. For example, if James is selected, we increment the popularity from 43 to 44.
 
 If name is not found, let's return status 400.
 
